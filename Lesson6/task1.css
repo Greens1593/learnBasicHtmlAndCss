@@ -1,0 +1,39 @@
+.firstHeader{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+}
+.secondLevelHeaders{
+    text-decoration: underline;   
+}
+.blog{ 
+    font-size: 30px;
+    font-style: italic;
+    background-color: greenyellow;
+}
+.firstPost{
+    word-spacing: 15px;
+}
+.firstPostContent{
+    font-weight: bold;
+    background-color: aqua;
+}
+.secondPost{ 
+    letter-spacing: 3px;
+}
+.secondPostContent{
+    text-indent: 20px;
+    background-color: rgb(229, 142, 142);
+}
+.btn{
+    background-color: grey;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border: none;
+}
+.lastBtn{
+    text-align: right;
+    padding-right: 0px;
+}
