@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{ 
+            display: flex;
+            background-color: blue;
+            color: white;
+            justify-content: flex-start;
+            height: 50px;
+            align-items: center;
+        }
+        .item{ 
+            display: flex;
+            padding: 5px;
+            height: 40px;
+            align-items: center;
+        }
+        .item:hover{ 
+            background-color: aqua;
+        }
+        h2{ 
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-size: 40px;
+        }
+        .container{ 
+            display: flex;
+            background-color: orange;
+            justify-content: flex-start;
+            align-items: center;
+            height: 50px;
+        }
+        .btn{ 
+            width: 25px;
+            height: 25px;
+            padding: 3px;
+            border: none;
+            margin: 3px;
+        }
+        .item a{
+            text-decoration: none;
+            color: white;
+        }
+        .btn a{ 
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="item"><a href="#">home</a></div>
+        <div class="item"><a href="#">books</a></div>
+        <div class="item"><a href="#">contacts</a></div>
+    </div>
+    <h2>Title h2</h2>
+    <p>Lorem, <a href="#">ipsum</a> dolor sit amet consectetur adipisicing elit. Labore reiciendis vel rerum id repellendus, rem quos dolor animi quas aliquam?</p>
+    <div class="container">
+        <button class="btn"><a href="#">1</a></button>
+        <button class="btn"><a href="#">2</a></button>
+        <button class="btn"><a href="#">3</a></button>
+        <button class="btn"><a href="#">4</a></button>
+    </div>
+</body>
+</html>
