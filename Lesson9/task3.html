@@ -6,14 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .container{ 
+        body{ 
             background-image: url(../Materials/Lesson9/dz/затемненый.png);
-            height: 675px;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        .container{ 
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+            max-width: 800px;
+        }
+        .block{ 
+            display: flex;
+            color: white;
+            width: 230px;
+            text-align: justify;
+            flex-direction: column;
+            margin-left: 20px;
+        }
+        h1{
+            display: flex; 
+            margin-top: 10%;
+            color: white;
+            text-transform: uppercase;
+            font-size: 45px;
             width: 100%;
+            justify-content: center;
+        }
+        h2{ 
+            text-transform: uppercase;
+            margin-left: 34px;
+        }
+        .first{ 
+            background-image: url(../Materials/Lesson9/dz/1.png);
+            background-position: 0% 8%;
+            background-repeat: no-repeat;
+            background-size: 22px 20px;
+        }
+        .second{ 
+            background-image: url(../Materials/Lesson9/dz/2.png);
+            background-position: 0% 8%;
+            background-repeat: no-repeat;
+            background-size: 22px 20px;
+        }
+        .third{  
+            background-image: url(../Materials/Lesson9/dz/3.png);
+            background-position: 0% 8%;
+            background-repeat: no-repeat;
+            background-size: 22px 20px;
         }
     </style>
 </head>
 <body>
-    <div class="container"></div>
+    <h1>Trade-in</h1>
+    <div class="container">
+        <div class="block first">
+            <h2>Program</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quo animi reprehenderit delectus quos optio velit consequatur consequuntur natus nam, quam atque. Aliquam facilis officiis enim voluptate dolores, nisi a delectus repellendus excepturi illo? Magni voluptas obcaecati tempore repellendus! Tempora deleniti nostrum veniam vitae earum? Libero, architecto! Ipsum, deserunt quisquam!</p>
+        </div>
+        <div class="block second">
+            <h2>Work process</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quo animi reprehenderit delectus quos optio velit consequatur consequuntur natus nam, quam atque. Aliquam facilis officiis enim voluptate dolores, nisi a delectus repellendus excepturi illo? Magni voluptas obcaecati tempore repellendus! Tempora deleniti nostrum veniam vitae earum? Libero, architecto! Ipsum, deserunt quisquam!</p>
+        </div>
+        <div class="block third">
+            <h2>Conditions</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quo animi reprehenderit delectus quos optio velit consequatur consequuntur natus nam, quam atque. Aliquam facilis officiis enim voluptate dolores, nisi a delectus repellendus excepturi illo? Magni voluptas obcaecati tempore repellendus! Tempora deleniti nostrum veniam vitae earum? Libero, architecto! Ipsum, deserunt quisquam!</p>
+        </div>
+    </div>
 </body>
 </html>
