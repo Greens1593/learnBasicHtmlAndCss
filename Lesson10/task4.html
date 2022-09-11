@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{ 
+            font-family: 'Corbel';
+            font-weight: normal;
+            font-style: normal;
+            width: 1100px;
+            color: #14931f;
+            font-size: 24px;
+            margin: auto;
+        }
+        h1{ 
+            font-size: 64px;
+        }
+        .additionHead{ 
+            text-align: center;
+            font-size: 48px;
+            color: #14931f;
+        }
+        .additionHeadInEvenCarts{ 
+            text-align: center;
+            font-size: 48px;
+            color: white;
+        }
+        footer{
+            font-size: 18px;
+        }
+        .main-header{ 
+            background-image: url(../Materials/Lesson10/сайтdz/Логотип.png);
+            background-position: 0% 0%;
+            background-repeat: no-repeat;
+            background-size: 146px 44px;
+        }
+        .block-head{ 
+            display: flex;
+            margin: auto;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 500px;
+            text-align: center;
+            padding-top: 60px;
+            padding-bottom: 30px;
+        }
+        .btn-start{ 
+            background-color: #14931f;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            width: 100px;
+            height: 30px;
+        }
+        .btn-start:hover{
+            background-color: #646F75;
+        }
+        .services{ 
+            display: flex;
+            margin: auto;
+            justify-content:space-between;
+            flex-wrap: wrap;
+            align-items: center;
+            width: 800px;
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 50px;
+        }
+        .service{
+            display: flex;
+            border-radius: 10px;
+            width: 250px;
+            height: 70px;
+            margin-bottom: 34px;
+            background-color: #DFDBF5;
+            color: #646F75;
+            align-items: center;
+            justify-content: center;
+            font-size: 19px;
+            flex-wrap: wrap;
+        }
+        .price{ 
+            background-color: #DFDBF5;
+            padding-top: 20px;
+            padding-bottom: 180px;
+        }
+        .carts{ 
+            display: flex;
+            width: 1010px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 0 30px;
+            padding-top: 110px;
+        }
+        .cart:nth-child(odd){
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            color: #646F75;
+            width: 220px;
+            border-radius: 29px;
+            align-items: center;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 60px;
+        }
+        .cart:nth-child(even){
+            display: flex;
+            flex-direction: column;
+            background-color: #14931f;
+            color: white;
+            width: 220px;
+            border-radius: 29px;
+            align-items: center;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 60px;
+        }
+        .list-odd{ 
+            list-style-image: url(../Materials/Lesson10/сайтdz/icon1.svg);
+            font-size: 18px;
+            margin: 50px 0px;
+        }
+        .list-even{ 
+            list-style-image: url(../Materials/Lesson10/сайтdz/icon2.svg);
+            font-size: 18px;
+            margin: 50px 0px;
+        }
+        .btn-in-cart{
+            background-color: white;
+            color: #646F75;
+            border: solid 1px #646F75;
+            border-radius: 30px;
+            width: 100px;
+            height: 30px;
+        }
+        .btn-in-cart:hover{
+            background-color: #14931f;
+            color: white;
+            border: solid 1px #646F75;
+            border-radius: 30px;
+            width: 100px;
+            height: 30px;
+        }
+        .btn-in-even-cart{
+            background-color: white;
+            color: #646F75;
+            border: solid 1px #646F75;
+            border-radius: 30px;
+            width: 100px;
+            height: 30px;
+        }
+        .btn-in-even-cart:hover{
+            background-color: #646F75;
+            color: white;
+            border: solid 1px #646F75;
+            border-radius: 30px;
+            width: 100px;
+            height: 30px;
+        }
+        footer{ 
+            display: flex;
+            background-color: #14931f;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 18px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="block-head">
+            <h1>Отличное зрение для всех!</h1>
+            <p class="addition-color"><small>Мы поможем вам исправить и улучшить ваше зрение в короткий срок</small></p>
+            <button class="btn-start">Начать</button>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2 class="additionHead">Услуги</h2>
+            <div class="services">
+                <div class="service">Проверка зрения</div>
+                <div class="service">Детское отделение</div>
+                <div class="service">Лазерная коррекция зрения</div>
+                <div class="service">Лечение кератоконуса</div>
+                <div class="service">Лазерное лечение забореваний глаза</div>
+                <div class="service">Лечение катаракты</div>
+            </div>
+        </section>
+        <section class="price">
+            <header>
+                <h2 class="additionHead">Цены</h2>
+            </header>
+            <div class="carts">
+                <div class="cart">
+                    <h2 class="additionHead">Диагностика</h2>
+                    <ul class="list-odd">
+                        <li>Lorem, ipsum dolor.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, sed!</li>
+                    </ul>
+                    <span>
+                        100 <b>$</b>
+                        <button class="btn-in-cart">Купить</button>
+                    </span>
+                </div>
+                <div class="cart">
+                    <h2 class="additionHeadInEvenCarts">Диагностика</h2>
+                    <ul class="list-even">
+                        <li>Lorem, ipsum dolor.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, sed!</li>
+                    </ul>
+                    <span>
+                        100 <b>$</b>
+                        <button class="btn-in-even-cart">Купить</button>
+                    </span>
+                </div>
+                <div class="cart">
+                    <h2 class="additionHead">Диагностика</h2>
+                    <ul class="list-odd">
+                        <li>Lorem, ipsum dolor.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, sed!</li>
+                    </ul>
+                    <span>
+                        100 <b>$</b>
+                        <button class="btn-in-cart">Купить</button>
+                    </span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        © Все права защищены
+    </footer>
+</body>
+</html>
